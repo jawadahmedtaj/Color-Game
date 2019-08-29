@@ -15,7 +15,17 @@ body {
     max-width: 600px;
 }
 
-span,
 h1 {
     color: white;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    background-color: aqua;
 }
