@@ -10,6 +10,7 @@ var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 
 easyBtn.addEventListener("click", function () {
+  messageDisplay.textContent = "";
   easyBtn.classList.add("selected");
   hardBtn.classList.remove("selected");
   numSquares = 3;
@@ -22,6 +23,7 @@ easyBtn.addEventListener("click", function () {
   }
 });
 hardBtn.addEventListener("click", function () {
+  messageDisplay.textContent = "";
   easyBtn.classList.remove("selected");
   hardBtn.classList.add("selected");
   numSquares = 6;
