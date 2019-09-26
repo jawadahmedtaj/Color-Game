@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jawadahmedtaj/Color-Game/issues"
   },
-  "homepage": "https://jawadahmedtaj.github.io/Color-Game"
+  "homepage": "https://jawadahmedtaj.github.io/Color-Game",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
